@@ -82,4 +82,5 @@ feb_winners = nobel %>% filter(born_month == "Feb")
 all_others = nobel %>% filter(born_month != "Feb")
 
 t_test = t.test(feb_winners$age_get_prize, all_others$age_get_prize, alternative = "less")
+#
 ```
